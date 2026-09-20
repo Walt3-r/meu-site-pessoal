@@ -1,0 +1,90 @@
+#pages1 {
+    background-color: #FFFFE0;
+    text-align: left;
+    font-family:sans-serif;
+}
+
+
+#cabeçalho {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cabeçalho2 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+#cabeçalho3 {
+    align-items: center;
+    display: flex;
+    justify-content: space-around;
+}
+
+
+a{
+    justify-content: space-between;
+    text-decoration: none;
+    color:currentColor;
+}
+
+a:hover{
+
+        text-decoration:solid;
+        color:darksalmon;
+}
+
+
+
+.myself{
+    width: 200px;
+    height: 200px;
+    text-align: right;
+}
+
+aside{
+   text-align: right;
+   border-color:black;
+   margin: 0px 100px;
+   border: 2px solid;
+   padding: 10px;
+   max-width: 200px;
+float:right;
+text-align: left;
+
+
+
+   
+}
+
+
+p{
+    margin: 5px 40px 0px 0px;
+    justify-content: end;
+    text-align: justify;
+}
+
+
+#uau{
+    background-color: #DA70D6;
+
+
+}
+button{
+    border-radius:100% ;
+    border-bottom: 100%;
+    text-align: center;
+    position:fixed;
+    background-color: #ba55d3;
+    height: 500px;
+    width: 500px;
+    font-size:xx-large;
+    margin: 0px 410px;
+}
+
+button:hover{
+    transform: translateY(-10px);
+    box-shadow: 0 5px 10px rgb(0, 0, 0, 0.5);
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8" name="viewport" content="width=device-width">
+        <title>UAU!</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+   
+   <script>
+
+        function playGrito(){
+            let x = document.getElementById("gito");
+            x.play();
+        }
+    </script>
+
+    <body id="uau">
+        <ul id="cabeçalho3">
+            <h3><a href="index.html" id="uau">Página inicial</a></h3>
+            <h3><a href="aboutme.html">Sobre Mim</a></h3>
+            <h3><a href="nicolas.html">Pagina do Convidado</a></h3>
+        </ul>
+
+        <button onclick="playGrito()">UAU!</button>
+
+        <audio id="grito">
+            <source src="grito.mp3" typle="audio/mpeg">
+
+        </audio>
+        <!--Depois de vários tutoriais, não consegui adicionar o audio quando clica o botão ;-; -->
+        
+        
+    </body>
